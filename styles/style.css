@@ -129,15 +129,24 @@ nav ul li {
 .article-feature-describe {
     font-weight: 400;
     font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 30px;
 }
 
 .article {
     width: 526px;
     height: 111px;
     padding: 30px;
-    box-shadow: 2px 2px 2px 2px rgb(239, 239, 239);
+    box-shadow: 1px 1px 1.2px 2px rgb(239, 239, 239);
     display: flex;
+    border-radius: 8px;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 20px;
+}
+
+.article-box-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
 }
