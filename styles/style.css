@@ -237,3 +237,38 @@ nav ul li {
     text-align: center;
 }
 
+
+/* sponsor part */
+
+.sponser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.sponsor-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    
+}
+
+.sponsor-single-img {
+ filter: grayscale();
+}
+
+.sponser-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sponser-para {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* footer part */
