@@ -212,7 +212,7 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .right-part {
@@ -247,16 +247,17 @@ nav ul li {
     justify-content: center;
     margin-bottom: 120px;
 }
+
 .sponsor-img {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 150px;
-    
+
 }
 
 .sponsor-single-img {
- filter: grayscale();
+    filter: grayscale();
 }
 
 .sponser-title {
@@ -272,3 +273,14 @@ nav ul li {
 }
 
 /* footer part */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 100px;
+    text-align: center;
+    background-color: #FFF4E7;
+    margin: 0 auto 120px;
+    font-size: 20px;
+}
