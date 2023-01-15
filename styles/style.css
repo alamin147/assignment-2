@@ -150,3 +150,18 @@ nav ul li {
     font-size: 20px;
     margin-bottom: 8px;
 }
+
+/* floating btn */
+.float-btn {
+    position: relative;
+    bottom: 115px;
+    left: 915px;
+    width: 222px;
+    height: 130px;
+    color: white;
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF900E;
+    text-align: center;
+}
