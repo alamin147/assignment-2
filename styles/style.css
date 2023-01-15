@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /*------- nav bar------ */
 
 .navbar {
@@ -164,4 +165,20 @@ nav ul li {
     border: none;
     background-color: #FF900E;
     text-align: center;
+}
+
+
+/* fact section */
+.fact {
+    margin: 130px 230px 0px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fact-describe{
+    margin-bottom: 100px;
 }
