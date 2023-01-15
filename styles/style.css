@@ -202,11 +202,17 @@ nav ul li {
     padding: 35px;
 }
 
+.achieve-box:hover {
+    height: 201px;
+    width: 201px;
+}
+
+
 .inner-box {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
 
 .right-part {
@@ -224,8 +230,10 @@ nav ul li {
     margin-bottom: 5px;
 }
 
+
 .achive-describe {
     font-weight: 600;
     font-size: 18px;
     text-align: center;
 }
+
