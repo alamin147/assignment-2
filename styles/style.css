@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
 
 
@@ -170,7 +171,7 @@ nav ul li {
 
 /* fact section */
 .fact {
-    margin: 130px 230px 0px;
+    margin: 130px 230px 100px;
 }
 
 .fact-title {
@@ -179,6 +180,52 @@ nav ul li {
     margin-bottom: 20px;
 }
 
-.fact-describe{
-    margin-bottom: 100px;
+
+
+/* achivement part */
+
+.achieve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 124px;
+    margin-bottom: 170px;
+}
+
+.achieve-box {
+    display: flex;
+    flex-direction: column;
+    height: 141px;
+    width: 141px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 35px;
+}
+
+.inner-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.achieve-number {
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.achive-describe {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
 }
